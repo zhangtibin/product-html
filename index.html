@@ -3,8 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <title>水墨江南</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+    <script src="js/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="keywords" content=""/>
+    <script type="application/x-javascript">
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+        function hideURLbar() {
+            window.scrollTo(0,1);
+        }
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+            });
+        });
+    </script>
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+    <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </head>
+
+
 <body>
+    <div class="header" id="home">
+
+    </div>
+
+    <div class="content">
+
+    </div>
+
+    <div class="portfolio" id="gallery">
+
+    </div>
+
+    <div class="footer">
+        <div>
+            <ul class="social">
+
+            </ul>
+        </div>
+    </div>
+
 
 </body>
 </html>
